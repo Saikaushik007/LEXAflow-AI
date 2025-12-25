@@ -1,0 +1,28 @@
+# ===========================
+# LEXAflow AI - requirements
+# ===========================
+
+# Core libraries for data manipulation and handling
+numpy==1.26.0           # For numerical operations, arrays, and calculations
+pandas==2.1.0           # For structured data handling and reading/writing data
+
+# Web framework for API endpoints (optional, if you extend the prototype)
+fastapi==0.108.0        # Lightweight Python web framework to expose APIs
+uvicorn==0.23.1         # ASGI server to run FastAPI applications
+
+# Natural Language Processing (NLP) & AI tools
+nltk==3.8.1             # Natural Language Toolkit for text preprocessing
+scikit-learn==1.3.2     # Machine learning algorithms for intent detection or vector search
+
+# JSON handling and file operations
+# Built-in Python modules (json, pathlib) handle this, no installation needed
+
+# Optional - vector search & semantic embeddings (if you extend AI capabilities)
+sentence-transformers==2.2.2  # For converting text to embeddings for semantic search
+
+# ===========================
+# Notes:
+# ===========================
+# 1. These packages cover both the current prototype and potential AI/NLP extensions.
+# 2. If your prototype only reads JSON and prints responses, you only need the standard library.
+# 3. Installing these ensures the project can be extended without modifying requirements.
